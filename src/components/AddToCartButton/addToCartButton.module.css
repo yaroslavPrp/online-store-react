@@ -1,0 +1,18 @@
+.addToCartBtn {
+	margin: 10px 0;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(165, 42, 42, 0.4);
+	font-size: 16px;
+	padding: 10px;
+	transition: all 0.1s;
+}
+
+.addToCartBtn:hover{
+	transform: scale(1.05);
+}
+
+.addToCartBtn:active{
+	transform: translate(2px);
+}

@@ -1,0 +1,84 @@
+.title {
+	margin: 0;
+	text-align: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	font-size: 20px;
+	width: 30vw;
+}
+
+.element {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.input {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(128, 128, 128, 0.2);
+}
+
+.loginError {
+	color: red;
+	font-size: 14px;
+}
+
+.checkboxContainer {
+	display: inline-flex;
+	align-items: center;
+	column-gap: 5px;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+}
+
+.checkboxText {
+	font-size: 16px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: none;
+	cursor: pointer;
+	padding: 15px 35px;
+	background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+	border-radius: 30px;
+	border: 1px solid #8F9092;
+	transition: all 0.2s ease;
+	font-size: 14px;
+	font-weight: 600;
+	color: #606060;
+	text-shadow: 0 1px #fff;
+}
+
+.button:hover {
+	box-shadow: 0 4px 3px 1px #FCFCFC,
+		0 6px 8px #D6D7D9,
+		0 -4px 4px #CECFD1,
+		0 -6px 4px #FEFEFE,
+		inset 0 0 3px 3px #CECFD1;
+}
+
+.button:active {
+	box-shadow: 0 4px 3px 1px #FCFCFC,
+		0 6px 8px #D6D7D9,
+		0 -4px 4px #CECFD1,
+		0 -6px 4px #FEFEFE,
+		inset 0 0 5px 3px #999,
+		inset 0 0 30px #aaa;
+}

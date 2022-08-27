@@ -1,0 +1,91 @@
+.container {
+	background-color: rgba(165, 42, 42, 0.4);
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 15px;
+}
+
+.company {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 50px;
+	padding: 5px 0;
+}
+
+.storeName {
+	text-transform: capitalize;
+	margin-left: 10px;
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+
+.navigation {
+	flex-grow: 1;
+	margin-left: 100px;
+	display: flex;
+	column-gap: 20px;
+}
+
+.headerBtn{
+	text-decoration: none;
+	align-items: center;
+	appearance: none;
+	background-color: #FCFCFD;
+	border-radius: 4px;
+	border-width: 0;
+	box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+		rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+		#D6D6E7 0 -3px 0 inset;
+	box-sizing: border-box;
+	color: #000000;
+	cursor: pointer;
+	display: inline-flex;
+	height: 30px;
+	justify-content: center;
+	line-height: 1;
+	list-style: none;
+	overflow: hidden;
+	padding-left: 16px;
+	padding-right: 16px;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+	transition: box-shadow .15s, transform .15s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	will-change: box-shadow, transform;
+	font-size: 13px;
+}
+
+.headerBtn:focus {
+	box-shadow: #D6D6E7 0 0 0 1.5px inset,
+		rgba(45, 35, 66, 0.4) 0 2px 4px,
+		rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+		#D6D6E7 0 -3px 0 inset;
+}
+
+.headerBtn:hover {
+	box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+		rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+		#D6D6E7 0 -3px 0 inset;
+	transform: translateY(-2px);
+}
+
+.headerBtn:active {
+	box-shadow: #D6D6E7 0 3px 7px inset;
+	transform: translateY(2px);
+}
+
+.activeLink{
+	color: red;
+}
